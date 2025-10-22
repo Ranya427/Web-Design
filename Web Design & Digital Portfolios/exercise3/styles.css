@@ -1,0 +1,83 @@
+/* Fonts */
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.handlee-regular {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Text */
+body {
+    background-color: #fae9e6;
+    z-index: 8;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "handlee";
+    font-weight: 600;
+    color: #3B130C;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    font-family: "caveat";
+    font-weight: 600;
+    color: #3B130C;
+}
+
+p {
+    font-size: 20px;
+    font-family: "caveat";
+    font-weight: 400;
+    padding: 10px;
+    color: #0C1C3B;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: auto;
+}
+
+/* Used this as a source for animations: https://www.w3schools.com/css/css3_animations.asp */
+/* Animation */
+.animation {
+    text-align: center;
+    width: 20%;
+    height: auto;
+    animation-name: myAnimation;
+    animation-duration: 6s;
+    background-color: #88afff;
+    box-shadow: 5px 5px 5px #260C3B;
+    padding: 5px;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+@keyframes myAnimation {
+    from {
+        background-color: #d52eff;
+    }
+    to {
+        background-color: #88afff;
+    }
+}
+
+/* 
+   Color Palette:
+   purple: #d52eff
+   pink: #ff33cb
+   blue: #88afff
+*/
