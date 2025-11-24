@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fantastic Mr. Fox</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Titan+One&display=swap" rel="stylesheet">
+        <style>
+            
+
+#panel {
+  display: none;
+}
+        </style>
+    </head>
+    <body>
+        <section class="start">
+            <!-- Empty for formatting -->
+        </section>
+        <section class="shock">
+            <h2>Mrs. Fox loses her temper.</h2>
+            <img class="flip" onclick="myFunction()" src="images/claw.png" width="100%" height="auto">
+            <div id="panel">
+                <img src="images/clawed.png" width="100%" height="auto">
+                <h2>"This story is too predictable. In the end, we all die."</h2>
+                <h2 style="font-size:50px;"><a href=faststory.html><strong>"Unless you change."</strong></a></h2>
+            </div>
+        </section>
+        <section class="start">
+            <!-- Empty for formatting -->
+        </section>
+        <script>
+            function myFunction() {
+                document.getElementById("panel").style.display = "block";
+            }
+        </script>
+    </body>
+</html>
