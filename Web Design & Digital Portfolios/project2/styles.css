@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Titan One", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    color: #b7523c;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #b7523c;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+a {
+    color: #665339;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:hover img {
+    opacity: 0.7;
+}
+
+.flex-container {
+  display: flex; /* Makes the container a flex container */
+  justify-content: space-around; /* Distributes space around items */
+  align-items: center; /* Vertically centers items */
+  gap: 20px; /* Adds space between items */
+}
+
+.titan-one {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.start {
+    padding: 20px;
+    background-color: #f0b455;
+}
+
+.start a {
+    color: #6e1f12;
+}
+
+.shock {
+    padding: 20px;
+    background-color: #6e1f12;
+}
+
+.shock h2 {
+    color: #868178;
+}
+
+.shock a {
+    color: #cab28d;
+}
+
+.faststory {
+    padding: 20px;
+    background-color: #795c44;
+}
+
+.faststory h2 {
+    color: #e8a66d;
+}
+
+#panel, .flip {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.flip:hover {
+     opacity: 0.5;
+     cursor:pointer;
+}
+
+/*
+    Colors
+    Red Orange: #b7523c
+    Bright Orange: #e8a66d
+    Dull Brown: #795c44
+    Dark Brown: #693219
+    Reddish Brown: #64200f
+    Burgundy: #6e1f12
+    Warm Yellow: #f5c05e
+    Bright Yellow: #f0b455
+    Dull Yellow: #cab28d
+    Black?: #f5c05e
+    Green-tinted Black: #564838
+    Dark Olive: #665339
+    Green-Grey: #868178
+    Beige: #cd947a
+    Neutral: #b5a18e
+*/
