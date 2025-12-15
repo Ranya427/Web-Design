@@ -1,0 +1,185 @@
+* {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #c2bdc7; /* Purple tint */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quantico-regular {
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.quantico-bold {
+  font-family: "Quantico", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: #3d3746; /* Purple Shade */
+    margin: 30px 0;
+    padding: 10px;
+    font-family: "Italianno", cursive;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #745b66; /* Red */
+    font-family: "Story Script";
+}
+
+a {
+    text-shadow: 0.04em 0.04em 0.04em #3d3746; /* Purple Shade */
+    font-family: "Italianno", cursive;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    color: #5b745e; /* Green */
+}
+
+img {
+    margin: 1rem;
+    border-radius: .7rem;
+    border: 1rem;
+}
+
+img a:hover {
+    opacity: 0.5;
+}
+
+.topnav {
+    display: inline-block;
+    overflow: hidden;
+    background-color: #bdc7bf; /* Green tint */
+    padding: 0;
+    margin: 10px 0px;
+    border: 1px solid #665b74; /* Purple */
+    border-radius: 5px;
+    box-shadow: 2px 2px #3d3746; /* Purple shade */
+}
+
+.topnav a {
+    text-shadow: 0.04em 0.04em 0.04em #5b745e; /* Green */
+    float: left;
+    display: flex;
+    color: #665b74; /* Purple */
+    text-align: center;
+    padding: 14px 80px;
+    text-decoration: none;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.topnav a:hover {
+    text-shadow: 0.04em 0.04em 0.04em #3d3746; /* Purple shade */
+    background-color: #665b74; /* Purple */
+    color: #c2bdc7; /* Purple tint */
+}
+
+.topnav a.active {
+    text-shadow: 0.04em 0.04em 0.04em #374638; /* Green shade */
+    background-color: #5b745e; /* Green */
+    color: #c2bdc7; /* Purple tint */
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 33.33%;
+}
+
+.vertical-container {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+#intro {
+    margin: 0 0 10px 0;
+}
+
+#music-notes {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+#music-notes img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
+
+#list {
+    margin: 0 0 10px 0;
+}
+
+#list row {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  Colors:
+    Purple
+        tint: #c2bdc7
+        normal: #665b74
+        shade: #3d3746
+    Green
+        tint: #bdc7bf
+        normal: #5b745e
+        shade: #374638
+    Red
+        tint: #c7bdc2
+        normal: #745b66
+        shade: #46373d
+    Tints are 60%
+    Shades are 40%
+*/
